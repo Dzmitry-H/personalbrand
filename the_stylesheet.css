@@ -1,71 +1,79 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
+.markdown-preview {
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    /*background-color: #fff;*/
-    color: #333;
+.markdown-preview ul {
+    list-style: disc;
 }
 
-header {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 20px;
+.markdown-preview ul ul {
+    list-style: circle;
 }
 
-nav {
-     /*background: #f0f0f0;*/
-    padding: 10px;
-    margin-bottom: 20px;
+.markdown-preview ul ul ul {
+    list-style: square;
 }
 
-nav ul {
-    list-style: none;
+.markdown-preview ol {
+    list-style: decimal;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+.markdown-preview ol ol,
+.markdown-preview ul ol {
+    list-style-type: lower-roman;
 }
 
-nav ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #555;
+.markdown-preview ol ol ol,
+.markdown-preview ol ul ol,
+.markdown-preview ul ol ol,
+.markdown-preview ul ul ol {
+    list-style-type: lower-alpha;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.markdown-preview .newpage,
+.markdown-preview .pagebreak {
+    page-break-before: always;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5em;
+.markdown-preview pre.line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber;
 }
 
-p {
-    margin-bottom: 1em;
+.markdown-preview pre.line-numbers>code {
+    position: relative;
 }
 
-code {
-    font-family: 'Courier New', monospace;
-    /*background-color: #f7f7f7;*/
-    padding: 2px 5px;
-    border-radius: 3px;
+.markdown-preview pre.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 1em;
+    font-size: 100%;
+    left: 0;
+    width: 3em;
+    letter-spacing: -1px;
+    border-right: 1px solid #999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-pre {
-    /*background-color: #f7f7f7;*/
-    border: 1px solid #ccc;
-    padding: 10px;
-    overflow-x: auto;
+.markdown-preview pre.line-numbers .line-numbers-rows>span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
 }
 
-/* Add more styles based on your specific needs */
+.markdown-preview pre.line-numbers .line-numbers-rows>span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: .8em;
+    text-align: right;
+}
+
+/* Additional styles continue here... */
