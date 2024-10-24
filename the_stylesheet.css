@@ -56,13 +56,13 @@ p {
 
 code {
     font-family: 'Courier New', monospace;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     padding: 2px 5px;
     border-radius: 3px;
 }
 
 pre {
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     border: 1px solid #ccc;
     padding: 10px;
     overflow-x: auto;
