@@ -1,12 +1,12 @@
 # Site settings
-title: My Awesome KB
-description: This is my awesome Kbb where I blog about cool things.
-baseurl: "/personalbrand" # the subpath of your site, e.g. /blog
-url: "https://dzmitry-h.github.io/" # the base hostname & protocol for your site
+# title: My Awesome KB
+# description: This is my awesome KB where I blog about cool things.
+# baseurl: "/personalbrand" # the subpath of your site, e.g. /blog
+# url: "https://dzmitry-h.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 theme: jekyll-theme-minimal
-markdown: kramdown
+# markdown: kramdown
 
 # Optional features
-show_excerpts: true # show excerpts on the homepage
+# show_excerpts: true # show excerpts on the homepage
