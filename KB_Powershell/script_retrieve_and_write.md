@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Example of Script (Retrieve Some Sytem Data and Write It to a File)"
+slug: script_retrieve_and_write
+---
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 __# PowerShell Script to Retrieve Details about the Desktop__
 
