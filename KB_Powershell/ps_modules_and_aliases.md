@@ -53,7 +53,7 @@ this command will show that **ls** is an alias for the **Get-ChildItem** cmdlet.
 - **Export-Alias** and **Import-Alias:** These cmdlets are used for exporting aliases to a file and importing them from a file, useful for transferring aliases between systems or users.
 - **Remove-Alias:** Removes an alias from the current session.
   
- ### Customizing and Creating Aliases
+### Customizing and Creating Aliases
 You can create a custom alias if the existing ones do not meet your needs. For instance, if you frequently need to list down all files and folders in detail, you might create a personalized alias for a detailed list view: **New-Alias -Name lsd -Value "Get-ChildItem -Force"** - this command assigns **lsd** as a new alias to the **Get-ChildItem -Force** command, which lists all items including hidden ones.
 
 ### Conclusion
