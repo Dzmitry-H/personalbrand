@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Modules and Aliases"
+slug: ps_modules_and_aliases
+---
 # PowerShell Modules and Aliases
 ## What is a module in the context of PowerShell?
 In the context of PowerShell, a module is a package that contains PowerShell commands, such as cmdlets, functions, variables, and more. These modules are designed to encapsulate a set of functionalities or components that are related, making it easier for users to organize and reuse their scripts. Modules in PowerShell enable users to manage complex scripts efficiently by grouping related operations.
