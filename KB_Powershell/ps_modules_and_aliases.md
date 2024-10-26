@@ -54,7 +54,7 @@ this command will show that **ls** is an alias for the **Get-ChildItem** cmdlet.
 - **Remove-Alias:** Removes an alias from the current session.
   
  ### Customizing and Creating Aliases
- You can create a custom alias if the existing ones do not meet your needs. For instance, if you frequently need to list down all files and folders in detail, you might create a personalized alias for a detailed list view: **New-Alias -Name lsd -Value "Get-ChildItem -Force"** - this command assigns **lsd** as a new alias to the **Get-ChildItem -Force** command, which lists all items including hidden ones.
+You can create a custom alias if the existing ones do not meet your needs. For instance, if you frequently need to list down all files and folders in detail, you might create a personalized alias for a detailed list view: **New-Alias -Name lsd -Value "Get-ChildItem -Force"** - this command assigns **lsd** as a new alias to the **Get-ChildItem -Force** command, which lists all items including hidden ones.
 
 ### Conclusion
 Aliases in PowerShell are powerful shortcuts that can significantly increase the efficiency of command-line operations. By using aliases, both novice and experienced PowerShell users can personalize their command-line experience, make commands easier to remember, and establish compatibility with syntax from other command-line environments. Through effective use of aliases, PowerShell becomes more flexible and accessible.
