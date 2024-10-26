@@ -1,7 +1,4 @@
 ---
-layout: post
-title: "My Post"
-date: 2024-10-27
 ---
 
 # PowerShell Modules and Aliases
