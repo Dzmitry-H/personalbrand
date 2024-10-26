@@ -58,3 +58,5 @@ You can create a custom alias if the existing ones do not meet your needs. For i
 
 ### Conclusion
 Aliases in PowerShell are powerful shortcuts that can significantly increase the efficiency of command-line operations. By using aliases, both novice and experienced PowerShell users can personalize their command-line experience, make commands easier to remember, and establish compatibility with syntax from other command-line environments. Through effective use of aliases, PowerShell becomes more flexible and accessible.
+- [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/kb_for_powershell/)
+- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
