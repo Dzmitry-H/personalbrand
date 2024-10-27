@@ -1,3 +1,4 @@
+# Useful Git Commands for Terminal
 git clone https://github.com/Dzmitry-H/GIThubTraining.git
 
 cd .\GIThubTraining\
@@ -25,7 +26,9 @@ gh auth login
 gh repo list
 
 __#Run the below command in Windows terminal, not in PowerShell ISE__
+
 gh repo create
 
 __#Run the below command in Windows terminal, not in PowerShell ISE__
+
 gh repo create One_More_Created_from_CLI --private --clone
