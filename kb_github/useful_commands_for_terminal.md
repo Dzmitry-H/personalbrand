@@ -31,6 +31,9 @@ gh auth login
 gh repo list
 
 __#Run the below command in Windows terminal, not in PowerShell ISE__
+- [Back to KB for GitHub Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/kb_for_powershell/)
+- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
+
 
 gh repo create
 
