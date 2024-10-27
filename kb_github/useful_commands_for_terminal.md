@@ -31,12 +31,11 @@ gh auth login
 gh repo list
 
 __#Run the below command in Windows terminal, not in PowerShell ISE__
-- [Back to KB for GitHub Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/kb_for_powershell/)
-- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
-
 
 gh repo create
 
 __#Run the below command in Windows terminal, not in PowerShell ISE__
 
 gh repo create One_More_Created_from_CLI --private --clone
+- [Back to KB for GitHub Contents](https://dzmitry-h.github.io/personalbrand/kb_github/kb_for_github/)
+- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
