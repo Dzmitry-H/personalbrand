@@ -91,19 +91,19 @@ Add-Content $report $services
 
 }
 
-    $ForRun = [ScriptBlock]::Create($ScriptItself)
+$ForRun = [ScriptBlock]::Create($ScriptItself)
 
-    $value = Read-Host "Do you really want to run it (Y/N)?"
+$value = Read-Host "Do you really want to run it (Y/N)?"
 
-    switch ($value) {
+switch ($value) {
 
-    Y {  & $ForRun }
+Y {  & $ForRun }
     
-    N { Write-Host 'Ok, not now' }
+N { Write-Host 'Ok, not now' }
     
-    Default { Write-Host 'Please enter either "Y" or "N"' }
+Default { Write-Host 'Please enter either "Y" or "N"' }
     
-    }
+}
 
 - [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/kb_for_powershell/)
 - [Back to Home](https://dzmitry-h.github.io/personalbrand/)
