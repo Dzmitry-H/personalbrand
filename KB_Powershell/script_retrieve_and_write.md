@@ -4,7 +4,9 @@ title: "Example of Script (Retrieve Some Sytem Data and Write It to a File)"
 slug: script_retrieve_and_write
 ---
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
-$ScriptItself = { __# PowerShell Script to Retrieve Details about the Desktop__
+$ScriptItself = 
+
+{ __# PowerShell Script to Retrieve Details about the Desktop__
 
 $Location = "C:\Users\dzmitryhud\Documents"
 
