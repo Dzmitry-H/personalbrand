@@ -95,17 +95,39 @@ Add-Content $report $services
 
 $ForRun = [ScriptBlock]::Create($ScriptItself)
 
+do {
+
 $value = Read-Host "Do you really want to run it (Y/N)?"
 
-switch ($value) {
+switch ($value.ToUpper()) {
 
-Y {  & $ForRun }
-    
-N { Write-Host 'Ok, not now' }
-    
-Default { Write-Host 'Please enter either "Y" or "N"' }
-    
+'Y' {
+
+& $ForRun
+           
+$validInput = $true
+        
 }
+        
+'N' {
+
+Write-Host 'Ok, not now'
+
+$validInput = $true
+
+}
+
+default {
+
+Write-Host 'Please enter either "Y" or "N"'
+
+$validInput = $false
+
+}
+
+}
+
+} until ($validInput)
 
 - [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/kb_for_powershell/)
 - [Back to Home](https://dzmitry-h.github.io/personalbrand/)
