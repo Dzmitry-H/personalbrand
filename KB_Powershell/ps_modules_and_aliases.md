@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Modules and Aliases"
-categories: [KB_Powershell, ps_modules_and_aliases]
+categories: [KVVB_Powershell, ps_modules_and_aliases]
 ---
 # PowerShell Modules and Aliases
 ## What is a module in the context of PowerShell?
