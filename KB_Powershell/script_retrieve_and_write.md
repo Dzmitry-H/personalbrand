@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Example of Script (Retrieve Some Sytem Data and Write It to a File)"
-slug: script_retrieve_and_write
+categories: [KB_Powershell, script_retrieve_and_write]
 ---
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 $ScriptItself = 
