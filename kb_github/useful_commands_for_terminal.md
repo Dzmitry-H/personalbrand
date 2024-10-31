@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Useful Git Commands for Terminal"
-slug: useful_commands_for_terminal
+categories: [kb_github, useful_commands_for_terminal]
 ---
 # Useful Git Commands for Terminal
 git clone https://github.com/Dzmitry-H/GIThubTraining.git
