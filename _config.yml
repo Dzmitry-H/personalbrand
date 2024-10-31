@@ -6,7 +6,7 @@ url: "https://dzmitry-h.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 theme: jekyll-theme-minimal
-permalink: /:slug/
+permalink: /:categories/:title/
 markdown: kramdown
 
 # Optional features
