@@ -11,52 +11,50 @@ See below an example of PowerShell script that is written to retrieve some syste
 
 $ScriptItself = 
 
-{ # PowerShell Script to Retrieve Details about the Desktop__
+{ # PowerShell Script to Retrieve Details about the Desktop
 
 $Location = "C:\Users\dzmitryhud\Documents"
 
-# Retrieve Desktop Settings__
+# Retrieve Desktop Settings
 
 $desktop = Get-CimInstance -ClassName Win32_Desktop
 
-# Retrieve BIOS Information__
+# Retrieve BIOS Information
 
 $bios = Get-CimInstance -ClassName Win32_BIOS
 
-# Retrieve Processor Information__
+# Retrieve Processor Information
 
 $processor = Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object -Property SystemType
 
-# Get Computer Manufacturer Details__
+# Get Computer Manufacturer Details
 
 $manufacturer = Get-CimInstance -ClassName Win32_ComputerSystem
 
-# Get Installed Hotfixes__
+# Get Installed Hotfixes
 
 $hotfixes = Get-CimInstance -ClassName Win32_QuickFixEngineering
 
-# Get Operating System Version Information__
+# Get Operating System Version Information
 
-$operatingsystem = Get-CimInstance -ClassName Win32_OperatingSystem | `
-    Select-Object -Property BuildNumber,BuildType,OSType,ServicePackMajorVersion,ServicePackMinorVersion
+$operatingsystem = Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object -Property BuildNumber,BuildType,OSType,ServicePackMajorVersion,ServicePackMinorVersion
 
-# Get Users and Owners__
+# Get Users and Owners
 
-$usergroups = Get-CimInstance -ClassName Win32_OperatingSystem | `
-    Select-Object -Property NumberOfLicensedUsers,NumberOfUsers,RegisteredUser
+$usergroups = Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object -Property NumberOfLicensedUsers,NumberOfUsers,RegisteredUser
 
-# Get Currently Logged-on User__
+# Get Currently Logged-on User
 
 $loggedon = Get-CimInstance -ClassName Win32_ComputerSystem -Property UserName
 
-# Get All Services Status__
+# Get All Services Status
 
 $services = Get-CimInstance -ClassName Win32_Service | Select-Object -Property Status,Name,DisplayName
 
 
-# Create File__
+# Create File
 
-_$report_ = "$($Location)\Report.log"
+$report_ = "$($Location)\Report.log"
 
 New-Item $report -ItemType File -Value "Desktop Report"
 
