@@ -8,6 +8,7 @@ categories: [KB_Powershell]
 See below an example of PowerShell script that is written to retrieve some system data and write it to the file.
 
 ```powershell
+
 $ScriptItself = 
 
 { __# PowerShell Script to Retrieve Details about the Desktop__
