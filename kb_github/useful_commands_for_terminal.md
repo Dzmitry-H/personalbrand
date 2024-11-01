@@ -4,6 +4,9 @@ title: "Useful Git Commands for Terminal"
 categories: [kb_github, useful_commands_for_terminal]
 ---
 # Useful Git Commands for Terminal
+Here are useful git commands for the terminal.
+
+```git
 git clone https://github.com/Dzmitry-H/GIThubTraining.git
 
 cd .\GIThubTraining\
@@ -30,12 +33,13 @@ gh auth login
 
 gh repo list
 
-__# Run the below command in Windows terminal, not in PowerShell ISE__
+# Run the below command in Windows terminal, not in PowerShell ISE
 
 gh repo create
 
-__# Run the below command in Windows terminal, not in PowerShell ISE__
+# Run the below command in Windows terminal, not in PowerShell ISE
 
 gh repo create One_More_Created_from_CLI --private --clone
+```
 - [Back to KB for GitHub Contents](https://dzmitry-h.github.io/personalbrand/kb_github/)
 - [Back to Home](https://dzmitry-h.github.io/personalbrand/)
