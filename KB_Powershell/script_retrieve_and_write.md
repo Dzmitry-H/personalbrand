@@ -35,12 +35,12 @@ $manufacturer = Get-CimInstance -ClassName Win32_ComputerSystem
 $hotfixes = Get-CimInstance -ClassName Win32_QuickFixEngineering
 
 # Get Operating System Version Information
-
-$operatingsystem = Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object -Property BuildNumber, BuildType, OSType, ServicePackMajorVersion, ServicePackMinorVersion
+$operatingsystem = Get-CimInstance -ClassName Win32_OperatingSystem | `
+    Select-Object -Property BuildNumber,BuildType,OSType,ServicePackMajorVersion,ServicePackMinorVersion
 
 # Get Users and Owners
-
-$usergroups = Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object -Property NumberOfLicensedUsers, NumberOfUsers, RegisteredUser
+$usergroups = Get-CimInstance -ClassName Win32_OperatingSystem | `
+    Select-Object -Property NumberOfLicensedUsers,NumberOfUsers,RegisteredUser
 
 # Get Currently Logged-on User
 
