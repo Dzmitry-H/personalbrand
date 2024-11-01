@@ -49,7 +49,7 @@ $loggedon = Get-CimInstance -ClassName Win32_ComputerSystem -Property UserName
 # Get All Services Status
 
 $services = Get-CimInstance -ClassName Win32_Service | Select-Object -Property Status, Name, DisplayName
-
+}
 
 # Create File
 
