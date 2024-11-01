@@ -53,7 +53,7 @@ $services = Get-CimInstance -ClassName Win32_Service | Select-Object -Property S
 
 # Create File
 
-$report_ = "$($Location)\Report.log"
+$report = "$($Location)\Report.log"
 
 New-Item $report -ItemType File -Value "Desktop Report"
 
