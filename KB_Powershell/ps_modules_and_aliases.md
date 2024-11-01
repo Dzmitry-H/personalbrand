@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Modules and Aliases"
+permalink: /kb_github/ps_modules_and_aliases/
 categories: [KB_Powershell, ps_modules_and_aliases]
 ---
 # PowerShell Modules and Aliases
