@@ -7,7 +7,7 @@ categories: [KB_Powershell]
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 See below an example of PowerShell script that is written to retrieve some system data and write it to the file.
 
-```powershell
+```html
 
 $ScriptItself = 
 
