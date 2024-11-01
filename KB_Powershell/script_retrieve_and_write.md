@@ -134,6 +134,8 @@ $validInput = $false
 
 } until ($validInput)
 
+```
+
 - [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/)
 - [Back to Home](https://dzmitry-h.github.io/personalbrand/)
-```
+
