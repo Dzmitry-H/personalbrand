@@ -2,6 +2,7 @@
 layout: default
 title: "Example of Script (Retrieve Some Sytem Data and Write It to a File)"
 permalink: /kb_github/script_retrieve_and_write/
+[KB_Powershell]
 ---
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 $ScriptItself = 
