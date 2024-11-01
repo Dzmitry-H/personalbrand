@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KB for PowerShell"
-categories: [KB_Powershell]
+categories: [KB_Powershell, index]
 ---
 # KB for PowerShell
 - [Modules and Aliases](https://dzmitry-h.github.io/personalbrand/KB_Powershell/ps_modules_and_aliases/)
