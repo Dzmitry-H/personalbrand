@@ -2,7 +2,7 @@
 layout: page
 title: "Example of Script (Retrieve Some Sytem Data and Write It to a File)"
 permalink: /KB_Powershell/script_retrieve_and_write/
-categories [KB_Powershell]
+categories: [KB_Powershell]
 ---
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 $ScriptItself = 
