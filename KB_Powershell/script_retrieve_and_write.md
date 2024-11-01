@@ -11,50 +11,50 @@ See below an example of PowerShell script that is written to retrieve some syste
 
 $ScriptItself = 
 
-{ __# PowerShell Script to Retrieve Details about the Desktop__
+{ # PowerShell Script to Retrieve Details about the Desktop__
 
 $Location = "C:\Users\dzmitryhud\Documents"
 
-__# Retrieve Desktop Settings__
+# Retrieve Desktop Settings__
 
 $desktop = Get-CimInstance -ClassName Win32_Desktop
 
-__# Retrieve BIOS Information__
+# Retrieve BIOS Information__
 
 $bios = Get-CimInstance -ClassName Win32_BIOS
 
-__# Retrieve Processor Information__
+# Retrieve Processor Information__
 
 $processor = Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object -Property SystemType
 
-__# Get Computer Manufacturer Details__
+# Get Computer Manufacturer Details__
 
 $manufacturer = Get-CimInstance -ClassName Win32_ComputerSystem
 
-__# Get Installed Hotfixes__
+# Get Installed Hotfixes__
 
 $hotfixes = Get-CimInstance -ClassName Win32_QuickFixEngineering
 
-__# Get Operating System Version Information__
+# Get Operating System Version Information__
 
 $operatingsystem = Get-CimInstance -ClassName Win32_OperatingSystem | `
     Select-Object -Property BuildNumber,BuildType,OSType,ServicePackMajorVersion,ServicePackMinorVersion
 
-__# Get Users and Owners__
+# Get Users and Owners__
 
 $usergroups = Get-CimInstance -ClassName Win32_OperatingSystem | `
     Select-Object -Property NumberOfLicensedUsers,NumberOfUsers,RegisteredUser
 
-__# Get Currently Logged-on User__
+# Get Currently Logged-on User__
 
 $loggedon = Get-CimInstance -ClassName Win32_ComputerSystem -Property UserName
 
-__# Get All Services Status__
+# Get All Services Status__
 
 $services = Get-CimInstance -ClassName Win32_Service | Select-Object -Property Status,Name,DisplayName
 
 
-__# Create File__
+# Create File__
 
 _$report_ = "$($Location)\Report.log"
 
