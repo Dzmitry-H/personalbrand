@@ -7,8 +7,7 @@ categories: [KB_Powershell]
 # Example of Script (Retrieve Some Sytem Data and Write It to a File)
 See below an example of PowerShell script that is written to retrieve some system data and write it to the file.
 
-```html
-
+```powershell
 $ScriptItself = 
 
 { # PowerShell Script to Retrieve Details about the Desktop
@@ -131,7 +130,6 @@ $validInput = $false
 }
 
 } until ($validInput)
-
 ```
 
 - [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/)
