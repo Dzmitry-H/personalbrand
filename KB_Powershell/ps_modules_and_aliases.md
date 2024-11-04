@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Modules and Aliases"
 permalink: /KB_Powershell/ps_modules_and_aliases/
 ---
