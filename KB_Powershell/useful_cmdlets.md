@@ -4,7 +4,7 @@ title: "Modules and Aliases"
 permalink: /KB_Powershell/useful_cmdlets/
 ---
 # PowerShell Useful Cmdlets
-## Working with modules 
+### Working with modules 
 ```powershell
 # Import the members of a module into the current session
 Import-Module -Name PSDiagnostics
@@ -35,7 +35,7 @@ Import-Module -Name 'AzureAD' -UseWindowsPowerShell
 Import-Module -Name 'ServerManager'
 Get-Module -Name 'ServerManager'
 ```
-## Exploring Help
+### Exploring Help
 ```powershell
 # Display basic help information about a cmdlet
 Get-Help Format-Table
@@ -69,7 +69,7 @@ $modulename = ""
 $module = Invoke-Command -ComputerName RemoteServer -ScriptBlock { Get-Module -Name $modulename -ListAvailable }
 Save-Help -Module $module -DestinationPath "C:\SavedHelp"
 ```
-## Understand Syntax
+### Understand Syntax
 ```powershell
 # Creating PowerShell Variables
 $variable = "My Text Value"
@@ -117,7 +117,7 @@ echo "Test Message"
 Get-Process
 gps
 ```
-## Utilize Variables
+### Utilize Variables
 ```powershell
 # View Members for an object
 Get-Service -ServiceName 'Dnscache' | Get-Member
@@ -151,7 +151,7 @@ Get-Service * | Select-Object -Property 'Status','DisplayName' |
 Where-Object -FilterScript {$_.Status -eq 'Running' -and $_.DisplayName -like "Windows*" |
     Sort-Object -Property 'DisplayName' -Descending | Format-Table -AutoSize
 ```
-## Understand Objects
+### Understand Objects
 ```powershell
 # View Members for an object
 Get-Service
@@ -182,7 +182,7 @@ Get-Service -ServiceName *
 Get-Service -ServiceName * | Select-Object -Property 'Status','DisplayName' |
     Sort-Object -Property 'Status' -Descending
 ```
-## Create First Script
+### Create First Script
 ```powershell
 # Part 1
 $variable = Get-Service -Name 'Dnscache'
@@ -217,7 +217,7 @@ Write-Host $variable.Name -ForegroundColor Yellow
 Write-Host $variable.DisplayName -ForegroundColor Green
 Write-Host $variable.Description -ForegroundColor Blue
 ```
-## Parameters Attributes for Scripts
+### Parameters Attributes for Scripts
 ```powershell
 # Create functions
 Function Display-Message()
@@ -259,7 +259,7 @@ Function Display-Message()
       Write-Host "I like to drive a "$Text
 }
 ```
-## Selecting Information
+### Selecting Information
 ```powershell
 # Select objects by property
 Get-Process | Select-Object -Property ProcessName, Id, WS
@@ -282,7 +282,7 @@ $object = [pscustomobject]@{Name="MyObject";Expand=@("One","Two","Three","Four",
 $object | Select-Object -ExpandProperty Expand -Property Name
 $object | Select-Object -ExpandProperty Expand -Property Name | Get-Member
 ```
-## Filtering Specific Data
+### Filtering Specific Data
 ```powershell
 # Basic Filtering (-eq, -ne and like)
 Get-Command | Where-Object {$_.CommandType -eq 'cmdlet'}
@@ -308,7 +308,7 @@ Get-ChildItem -Path "C:\Users\Trainer" -Filter *ps1
 
 Get-Command -ParameterName Filter
 ```
-## Control the Flow
+### Control the Flow
 ```powershell
 # Basic If Statement
 $value = 10
@@ -385,7 +385,7 @@ Switch ($brand1, $brand2)
     default {'You did not type any brand'}
 }
 ```
-## Define Custom Help
+### Define Custom Help
 ```powershell
 # Basic Function
 function Add-FourNumbers()
@@ -496,7 +496,7 @@ Get-Help Add-FourNumbers
 
 Get-Help .\Help.ps1
 ```
-## Manage Files and Folders
+### Manage Files and Folders
 ```powershell
 # Set Variable
 $Location = "C:\Users\Trainer\PSFolder\"
@@ -545,7 +545,7 @@ Rename-Item -Path "$($Location)\Users\UsersCopy.xlsx" -NewName "UsersCopyCopy.xl
 # Rename File Extensions
 Get-ChildItem "$($Location)\TextFiles\*.txt" | Rename-Item -NewName { $_.name -Replace '\.txt$','.bak' }
 ```
-## Retrieve Data
+### Retrieve Data
 ```powershell
 # Set Variable
 $Location = "C:\Users\Trainer\PSFolder\Data"
@@ -574,7 +574,7 @@ Import-Csv "$($Location)\Employees.csv" | ForEach-Object {
     Write-Host "$($_.FirstName), $($_.LastName) born $($_.DateOfBirth)"
 }
 ```
-## Work with JSON
+### Work with JSON
 ```powershell
 # Generate JSON
 systeminfo /fo CSV | ConvertFrom-Csv | convertto-json | Out-File  "$($Location)\ComputerInfo.json"
@@ -605,7 +605,7 @@ $employees = @{"Employees"=$arrayList;}
 $jsonObject.Add("Data",$employees)
 $jsonObject | ConvertTo-Json -Depth 10
 ```
-## Enable Remoting
+### Enable Remoting
 ```powershell
 # Enable Remoting
 Enable-PSRemoting
@@ -636,7 +636,7 @@ Remove-PSSession -Session 5
 Remove-PSSession -Session $session
 $session
 ```
-## Combine Commands
+### Combine Commands
 ```powershell
 # Pipe
 Get-Commend | Where-Object {} | Sort-Object {} | Select-Object
@@ -683,7 +683,7 @@ $variable ?? "No Value is Found"
 $variable = "test"
 $variable ?? "No Value is Found"
 ```
-## Practical PS Remoting
+### Practical PS Remoting
 ```powershell
 # Command to Execute
 $Location = "C:\Users\Trainer\Documents\PowerShell\Start"
@@ -691,7 +691,7 @@ $Location = "C:\Users\Trainer\Documents\PowerShell\Start"
 $session = New-PSSession -ComputerName localhost -ConfigurationName
 Invoke-Command -Session $session -ScriptBlock { "$($Location)\Remote.ps1" }
 ```
-## Remote
+### Remote
 ```powershell
 # PowerShell Script to Retrieve Details about the Desktop
 $Location = "C:\Users\Trainer\PSFolder"
