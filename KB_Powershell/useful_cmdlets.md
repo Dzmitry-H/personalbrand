@@ -747,3 +747,5 @@ Add-Content $report $loggedon
 Add-Content $report "********** Services Details **********"
 Add-Content $report $services
 ```
+- [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/)
+- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
