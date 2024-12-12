@@ -1,1 +1,6 @@
+---
+layout: page
+title: "Modules and Aliases"
+permalink: /KB_Powershell/ps_modules_and_aliases/
+---
 ![PowerShell Syntax](https://github.com/Dzmitry-H/personalbrand/blob/main/powershell_syntax.png)
