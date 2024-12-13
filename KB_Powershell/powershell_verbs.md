@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Modules and Aliases"
+title: "Powershell Verbs"
 permalink: /KB_Powershell/powershell_verbs/
 ---
 ![PowerShell Syntax](https://github.com/Dzmitry-H/personalbrand/blob/main/images/powershell_syntax.png?raw=true)
