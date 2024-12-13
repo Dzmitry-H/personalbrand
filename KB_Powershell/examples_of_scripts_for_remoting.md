@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Modules and Aliases"
+title: "Examples of scripts for remoting"
 permalink: /KB_Powershell/examples_of_scripts_for_remoting/
 ---
 # Examples of scripts for remoting
