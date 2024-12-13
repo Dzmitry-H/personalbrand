@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Modules and Aliases"
+permalink: /KB_Powershell/examples_of_scripts_for_remoting/
+---
 # Examples of scripts for remoting
 ```powershell
 Enter-PSSession -ComputerName dzmitryhud002
