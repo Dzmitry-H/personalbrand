@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Modules and Aliases"
+title: "PowerShell Script to Retrieve Some System Info"
 permalink: /powershell_script_to_retrieve_some_system_info/
 ---
 # PowerShell Script to Retrieve Some System Info
