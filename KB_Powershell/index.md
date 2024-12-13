@@ -10,5 +10,5 @@ categories: [KB_Powershell, index]
 - [PowerShell Verbs](https://dzmitry-h.github.io/personalbrand/KB_Powershell/powershell_verbs/)
 - [PowerShell Useful Cmdlets](https://dzmitry-h.github.io/personalbrand/KB_Powershell/useful_cmdlets/)
 - [Examples of Scripts for Remoting](https://dzmitry-h.github.io/personalbrand/KB_Powershell/examples_of_scripts_for_remoting/)
-- [PowerShell Script to Retrieve Some System Info]
+- [PowerShell Script to Retrieve Some System Info](https://dzmitry-h.github.io/personalbrand/KB_Powershell/ps_scrpt_to_get_some_system_info/)
 - [Home](https://dzmitry-h.github.io/personalbrand/)
