@@ -8,5 +8,6 @@ categories: [KB_Powershell, index]
 - [Example of Script (Retrieve Some Sytem Data and Write It to a File)](https://dzmitry-h.github.io/personalbrand/KB_Powershell/script_retrieve_and_write/)
 - [PowerShell Verbs](https://dzmitry-h.github.io/personalbrand/KB_Powershell/powershell_verbs/)
 - [PowerShell Useful Cmdlets](https://dzmitry-h.github.io/personalbrand/KB_Powershell/useful_cmdlets/)
-- [Examples of Scripts for Remoting](https://dzmitry-h.github.io/personalbrand/KB_Powershell/examples_of_scripts_for_remoting)
+- [Examples of Scripts for Remoting](https://dzmitry-h.github.io/personalbrand/KB_Powershell/examples_of_scripts_for_remoting/)
+- [](https://dzmitry-h.github.io/personalbrand/KB_Powershell/powershell_script_to_retrieve_some_system_info/)
 - [Home](https://dzmitry-h.github.io/personalbrand/)
