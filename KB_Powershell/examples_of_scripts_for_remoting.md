@@ -1,9 +1,4 @@
 # Examples of scripts for remoting
----
-layout: page
-title: "Modules and Aliases"
-permalink: /KB_Powershell/examples_of_scripts_for_remoting/
----
 ```powershell
 Enter-PSSession -ComputerName dzmitryhud002
 Get-Service
