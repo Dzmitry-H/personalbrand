@@ -3,7 +3,6 @@ layout: page
 title: "PowerShell Script to Retrieve Some System Info"
 permalink: /ps_scrpt_to_get_some_system_info/
 ---
-
 # PowerShell Script to Retrieve Some System Info
 ```powershell
 # PowerShell Script to Retrieve Details about the Desktop
