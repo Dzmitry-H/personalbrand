@@ -4,15 +4,16 @@ title: "Control Flow Constructs in PowerShell"
 permalink: /KB_Powershell/control_flow/
 ---
 # Control Flow Constructs in PowerShell
+
 In the context of PowerShell, the term "flow" typically refers to "control flow," which is a concept used to describe the order in which individual statements, instructions, 
 or function calls are executed or evaluated within a script. 
 Control flow determines how and when the code is executed, especially in the presence of structures that can change the execution path, such as conditionals (if-else statements), loops, and function calls.
 
 ## Key Control Flow Constructs in PowerShell
+
 Here are some of the primary control flow constructs used in PowerShell:
 
 1. **Conditional Statements**: These are used to execute code blocks based on certain conditions.
-
 ```powershell
 if ($value -eq 10) {
     Write-Host "Value is 10"
