@@ -72,6 +72,7 @@ try {
 ```
 
 ## Importance of Control Flow in PowerShell
+
 Understanding and effectively using control flow constructs is crucial for:
 - **Error Handling**: Properly managing and responding to errors.
 - **Data Processing**: Handling various scenarios when processing data, such as iterating over records or making decisions based on data values.
