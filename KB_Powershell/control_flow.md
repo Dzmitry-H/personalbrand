@@ -25,6 +25,7 @@ if ($value -eq 10) {
 ```
 
 - **if, elseif, else**: Executes different blocks of code based on the truth value of expressions.
+
   
 2. **Looping Statements**: These allow repeating a block of code multiple times.
    
