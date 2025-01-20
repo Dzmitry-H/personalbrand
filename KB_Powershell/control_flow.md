@@ -25,7 +25,7 @@ Here are some of the primary control flow constructs used in PowerShell:
     }
     ```
 
-- **if, elseif, else**: Executes different blocks of code based on the truth value of expressions.
+**if, elseif, else**: Executes different blocks of code based on the truth value of expressions.
 
 2. **Looping Statements**: These allow repeating a block of code multiple times.
    
@@ -35,10 +35,10 @@ Here are some of the primary control flow constructs used in PowerShell:
     }
     ```
 
-- **For**: Loops through a block of code a set number of times.
-- **ForEach**: Iterates over items in a collection.
-- **While**: Continues looping as long as a condition is true.
-- **Do-While and Do-Until**: Similar to While but checks the condition after the code block has executed.
+**For**: Loops through a block of code a set number of times.
+**ForEach**: Iterates over items in a collection.
+**While**: Continues looping as long as a condition is true.
+**Do-While and Do-Until**: Similar to While but checks the condition after the code block has executed.
   
 3. **Switch Statements**: These are used to execute one block of code out of many options based on the value of a variable.
    
