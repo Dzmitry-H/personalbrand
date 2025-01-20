@@ -13,7 +13,7 @@ Control flow determines how and when the code is executed, especially in the pre
 
 Here are some of the primary control flow constructs used in PowerShell:
 
-1. **Conditional Statements**: These are used to execute code blocks based on certain conditions.\
+1. **Conditional Statements**: These are used to execute code blocks based on certain conditions.
    
 ```powershell
 if ($value -eq 10) {
