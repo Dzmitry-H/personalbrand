@@ -66,3 +66,5 @@ Understanding and effectively using control flow constructs is crucial for:
 - **Automating Tasks**: Writing scripts that perform complex tasks, potentially with different steps and decisions.
   
 By mastering these control flow mechanisms, you can write robust, efficient, and readable PowerShell scripts that are capable of performing complex automation and configuration tasks.
+- [Back to KB for PowerShell Contents](https://dzmitry-h.github.io/personalbrand/KB_Powershell/)
+- [Back to Home](https://dzmitry-h.github.io/personalbrand/)
