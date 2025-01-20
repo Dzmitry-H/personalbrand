@@ -23,20 +23,24 @@ if ($value -eq 10) {
     Write-Host "Value is greater than 10"
 }
 ```
+
 - **if, elseif, else**: Executes different blocks of code based on the truth value of expressions.
   
 2. **Looping Statements**: These allow repeating a block of code multiple times.
+   
 ```powershell
 for ($i = 0; $i -lt 10; $i++) {
     Write-Host "Loop iteration: $i"
 }
 ```
+
 - **For**: Loops through a block of code a set number of times.
 - **ForEach**: Iterates over items in a collection.
 - **While**: Continues looping as long as a condition is true.
 - **Do-While and Do-Until**: Similar to While but checks the condition after the code block has executed.
   
 3. **Switch Statements**: These are used to execute one block of code out of many options based on the value of a variable.
+   
 ```powershell
 switch ($value) {
     1 { Write-Host 'One' }
