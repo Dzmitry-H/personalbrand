@@ -15,15 +15,15 @@ Here are some of the primary control flow constructs used in PowerShell:
 
 1. **Conditional Statements**: These are used to execute code blocks based on certain conditions.
    
-```powershell
-if ($value -eq 10) {
+  ```powershell
+  if ($value -eq 10) {
     Write-Host "Value is 10"
-} elseif ($value -lt 10) {
+  } elseif ($value -lt 10) {
     Write-Host "Value is less than 10"
-} else {
+  } else {
     Write-Host "Value is greater than 10"
-}
-```
+  }
+  ```
 
 - **if, elseif, else**: Executes different blocks of code based on the truth value of expressions.
 
