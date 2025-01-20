@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Control Flow Constructs in PowerShell"
+permalink: /KB_Powershell/control_flow/
+---
 # Control Flow Constructs in PowerShell
 In the context of PowerShell, the term "flow" typically refers to "control flow," which is a concept used to describe the order in which individual statements, instructions, 
 or function calls are executed or evaluated within a script. 
